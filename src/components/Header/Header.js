@@ -1,4 +1,5 @@
 import React from "react";
+import Profile from "../../assets/images/profile3.png";
 import "./Header.css";
 
 const Header = () => {
@@ -11,6 +12,9 @@ const Header = () => {
                 <a href="#contact" className="scroll_down">
                     Scroll Down
                 </a>
+                <div className="pic">
+                    <img src={Profile} alt="My Pic" />
+                </div>
             </div>
         </div>
     );
