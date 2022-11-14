@@ -4,7 +4,7 @@
   overflow: hidden;
 }
 
-.header_container {
+.header_cont {
   text-align: center;
   height: 100%;
   position: relative;
@@ -21,6 +21,13 @@
   padding: 1.5rem;
 }
 
+.personal{
+  margin-top: 2.5rem;
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
+}
+
 .pic img {
   height: 100%;
   border-radius: 2rem;
@@ -35,3 +42,4 @@
   font-size: 1rem;
   font-weight: 300;
 }
+
