@@ -35,7 +35,7 @@ html {
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
   background: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
@@ -58,6 +58,7 @@ h5 {
 
 h1 {
   font-size: 2.5rem;
+  /* font-family: 'Oleo Script', cursive; */
 }
 
 section {
