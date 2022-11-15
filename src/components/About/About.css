@@ -24,8 +24,8 @@
   overflow: hidden;
   transform: rotate(10deg);
   transition: var(--transition);
-  width: 22rem;
-  height: 22rem;
+  width: 21rem;
+  height: 21rem;
   padding: 0.2rem;
 }
 

@@ -23,7 +23,7 @@ const About = () => {
                         <article className='about_card'>
                             <RiAwardLine className='about_icon' />
                             <h5>Experience</h5>
-                            <small>1+ Year Working</small>
+                            <small>1 + Years Working</small>
                         </article>
 
                         <article className='about_card'>
@@ -39,7 +39,7 @@ const About = () => {
                         </article>
                     </div>
                     <p>
-                        Am a multi-talented human being with the specialties in Problem Solving, UI/UX Designing, Ethical Hacking, Full Stack Web Developing & Product Designing. I'm Never satisfied to just come up with Ideas, instead I have an Impulsive need to act on them. I don't like to define myself by the work I've Done. I define myself by the work I want to do.
+                        Am a multi-talented human being with the specialties in Problem Solving, UI/UX Designing, Full Stack Web Developing & Product Designing. I'm Never satisfied to just come up with Ideas, instead I have an Impulsive need to act on them. I don't like to define myself by the work I've Done rather by the work I want to do.
                     </p>
                     <a href='#contact' className='btn btn-primary'> Let's Talk </a>
                 </div>
@@ -48,4 +48,4 @@ const About = () => {
     )
 }
 
-export default About
+export default About;
