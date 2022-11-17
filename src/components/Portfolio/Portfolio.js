@@ -47,12 +47,41 @@ const Portfolio = () => {
         },
     ];
 
+    const renderProjects = projects.map((project) => {
+        return (
+            <article className="portfolio_item" key={project.id}>
+                <div className="portfolio_item_image">
+                    <img src={project.image_url} alt={project.title} />
+                </div>
+                <h3>{project.title}</h3>
+                <div className="portfolio_item_cta">
+                    <a
+                        href={project.github_url}
+                        className="btn"
+                        target={"_blank"}
+                        rel="noreferrer"
+                    >
+                        GitHub
+                    </a>
+                    <a
+                        href={project.live_demo}
+                        className="btn btn-primary"
+                        target={"_blank"}
+                        rel="noreferrer"
+                    >
+                        Live Demo
+                    </a>
+                </div>
+            </article>
+        );
+    });
+
     return (
         <section id="portfolio">
             <h5>My Recent Work</h5>
             <h2>Portfolio</h2>
 
-
+            <div className="container portfolio_container">{renderProjects}</div>
         </section>
     );
 };
