@@ -1,10 +1,25 @@
 import React from 'react'
 import './Experience.css'
+import { RiCheckboxCircleFill } from 'react-icons/ri'
 
 
 const Experience = () => {
     const frontEnd = ["HTML", "CSS-SASS", "JavaScript", "React", "Redux", "Material UI"];
     const backEnd = ["Ruby", "Sinatra", "Active Record", "Ruby on Rails", "SQLite", "PostgreSQL"];
+
+    const renderExperience = (array) => {
+        return array.map((item => {
+            return (
+                <article className='expe_item'>
+                    <RiCheckboxCircleFill className='expe_icon' />
+                    <div>
+                        <h4>{item}</h4>
+                        <small className='text-light'>Experienced</small>
+                    </div>
+                </article>
+            )
+        }))
+    }
 
     return (
         <section id='experience'>
