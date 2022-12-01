@@ -6,7 +6,8 @@ import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Navigation from './components/Navigation/Navigation';
 import Portfolio from './components/Portfolio/Portfolio';
-import Service from './components/Services/Service';
+// import Service from './components/Services/Service';
+// import Testimonials from './components/Testimonials/Testimonials';
 
 const App = () => {
   return (
@@ -15,8 +16,9 @@ const App = () => {
       <Navigation />
       <About />
       <Experience />
-      <Service />
+      {/* <Service /> */}
       <Portfolio />
+      {/* <Testimonials /> */}
       <Contact />
       <Footer />
     </div>
