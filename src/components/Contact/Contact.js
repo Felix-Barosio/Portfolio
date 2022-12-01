@@ -1,9 +1,13 @@
-import React from 'react'
+import React, { useRef } from 'react';
 
-function Contact() {
+const Contact = () => {
+
     return (
-        <div>Contact</div>
+        <section id="contact">
+            <h5>Get in Touch</h5>
+            <h2>Contact Me</h2>
+        </section>
     )
 }
 
-export default Contact
+export default Contact;
