@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import './Contact.css'
+import { HiOutlineMail } from 'react-icons/hi'
 // import { RiMessengerLine } from 'react-icons/ri'
 // import emailjs from '@emailjs/browser';
 
@@ -24,6 +25,14 @@ const Contact = () => {
             <h5>Get in Touch</h5>
             <h2>Contact Me</h2>
             <div className='contact_container'>
+                <div className="contact_options">
+                    <article className='contact_option'>
+                        <HiOutlineMail className='contact_icon' />
+                        <h4>Email Address</h4>
+                        <h5>barosiofelix@gmail.com</h5>
+                        <a href="mailto:barosiofelix@gmail.com" target={'_blank'} rel="noreferrer">Send Message</a>
+                    </article>
+                </div>
 
                 <form ref={form} onSubmit={sendEmail}>
                     <input type="text" name="name" placeholder="Your Full Name" required />
