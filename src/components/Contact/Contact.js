@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import './Contact.css'
 import { HiOutlineMail } from 'react-icons/hi'
+import { RiWhatsappLine } from 'react-icons/ri'
 // import { RiMessengerLine } from 'react-icons/ri'
 // import emailjs from '@emailjs/browser';
 
@@ -31,6 +32,20 @@ const Contact = () => {
                         <h4>Email Address</h4>
                         <h5>barosiofelix@gmail.com</h5>
                         <a href="mailto:barosiofelix@gmail.com" target={'_blank'} rel="noreferrer">Send Message</a>
+                    </article>
+
+                    {/* <article className='contact_option'>
+                        <RiMessengerLine className='contact_icon' />
+                        <h4>Messenger</h4>
+                        <h5>Barosio Felix</h5>
+                        <a href="" target={'_blank'} rel="noreferrer">Send a message</a>
+                    </article> */}
+
+                    <article className='contact_option'>
+                        <RiWhatsappLine className='contact_icon' />
+                        <h4>WhatsApp</h4>
+                        <h5>+254 729310872</h5>
+                        <a href="https://api.whatsapp.com/send?phone=254729310872" target={'_blank'} rel="noreferrer">Send Message</a>
                     </article>
                 </div>
 
