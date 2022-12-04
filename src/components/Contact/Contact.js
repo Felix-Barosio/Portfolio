@@ -44,8 +44,9 @@ const Contact = () => {
                     <article className='contact_option'>
                         <RiWhatsappLine className='contact_icon' />
                         <h4>WhatsApp</h4>
-                        <h5>+254 729310872</h5>
-                        <a href="https://api.whatsapp.com/send?phone=254729310872" target={'_blank'} rel="noreferrer">Send Message</a>
+                        <h5>Lets Talk</h5>
+                        <a href="https://api.whatsapp.com/send?phone=+254" target={'_blank'} rel="noreferrer">Send Message</a>
+                        {/* <a href="https://api.whatsapp.com/send?phone=254729310872" target={'_blank'} rel="noreferrer">Send Message</a> */}
                     </article>
                 </div>
 
