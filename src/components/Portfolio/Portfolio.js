@@ -42,7 +42,7 @@ const Portfolio = () => {
             id: 5,
             title: "To-Do App",
             image_url: Todo,
-            github_url: "https://github.com/Felix-Barosio/To-Do-Client",
+            github_url: "https://github.com/Felix-Barosio/Omnido",
             live_demo: "",
         },
     ];
