@@ -4,7 +4,7 @@ import { RiCheckboxCircleFill } from 'react-icons/ri'
 
 
 const Experience = () => {
-    const frontEnd = ["HTML", "CSS-SASS", "JavaScript", "React", "Redux", "Material UI"];
+    const frontEnd = ["HTML", "CSS", "JavaScript", "React", "Redux", "Bootsrap"];
     const backEnd = ["Ruby", "Sinatra", "Active Record", "Ruby on Rails", "SQLite", "PostgreSQL"];
 
     const renderExperience = (array) => {
