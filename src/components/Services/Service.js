@@ -7,6 +7,17 @@ const Service = () => {
     const backEndServices = ['Ruby', 'Ruby on Rails', 'NodeJs', 'PostgreSQL']
     const otherServices = ['Git - Version Control', 'Github', 'Heroku', 'Netlify']
 
+    const renderServices = (services) => {
+        return services.map((service) => {
+            return (
+                <li key={service}>
+                    <RiCheckFill className='service_icon' />
+                    <p>{service}</p>
+                </li>
+            )
+        })
+    }
+
     return (
         <section id='services'>
             <h5>What I Offer</h5>
