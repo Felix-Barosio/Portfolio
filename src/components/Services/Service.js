@@ -1,6 +1,10 @@
 import React from 'react'
 
 const Service = () => {
+    const frontEndServices = ['HTML', 'CSS', 'Javascript (Vanilla)', 'React']
+    const backEndServices = ['Ruby', 'Ruby on Rails', 'NodeJs', 'PostgreSQL']
+    const otherServices = ['Git - Version Control', 'Github', 'Heroku', 'Netlify']
+
     return (
         <section id='services'>
             <h5>What I Offer</h5>
