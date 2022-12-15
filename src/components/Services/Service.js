@@ -32,6 +32,25 @@ const Service = () => {
                         {renderServices(frontEndServices)}
                     </ul>
                 </article>
+
+                <article className='service'>
+                    <div className='service_header'>
+                        <h3> Backend Development</h3>
+                    </div>
+                    <ul className='service_list'>
+                        {renderServices(backEndServices)}
+                    </ul>
+                </article>
+
+                <article className='service'>
+                    <div className='service_header'>
+                        <h3> Others </h3>
+                    </div>
+                    <ul className='service_list'>
+                        {renderServices(otherServices)}
+                    </ul>
+                </article>
+
             </div>
         </section>
     )
