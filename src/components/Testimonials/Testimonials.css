@@ -1,0 +1,34 @@
+.testimonial_container{
+    width: 50%;  
+    padding-bottom: 4rem;
+}
+
+.client_avatar{
+    width: 4rem;
+    height: 4rem; 
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto 1rem;
+    border: 0.4rem solid var(--color-primary-variant)
+}
+
+.client_avatar img{
+    width: 100%;
+}
+
+.testimonial{
+    background: var(--color-bg);
+    text-align: center;
+    padding: 2rem;
+    border-radius: 2rem;
+    /* users wont be able to select and copy */
+    user-select: none; 
+}
+
+.client_review{
+    display: block;
+    color: var(--color-light);
+    font-weight: 300;
+    width: 80%;
+    margin: 0.8rem auto 0;
+}
