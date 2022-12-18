@@ -1,4 +1,5 @@
 import React from 'react'
+import Pic from '../../assets/images/profile3.png'
 import { Swiper } from 'swiper/react';
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import 'swiper/css';
@@ -11,31 +12,31 @@ const Testimonial = () => {
         {
             id: 1,
             avatar: Pic,
-            name: 'Beckett',
+            name: 'Beckett Fitz',
             review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus pariatur nemo nisi deserunt accusantium harum fugit sapiente vel, amet ipsum veniam, animi quisquam tempora officiis itaque esse, necessitatibus sequi. Commodi."
         },
         {
             id: 2,
             avatar: Pic,
-            name: 'Rick Castle',
+            name: 'Richard Castle',
             review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus pariatur nemo nisi deserunt accusantium harum fugit sapiente vel, amet ipsum veniam, animi quisquam tempora officiis itaque esse, necessitatibus sequi. Commodi."
         },
         {
             id: 3,
             avatar: Pic,
-            name: 'Jessica',
+            name: 'Jessica Sanchez',
             review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus pariatur nemo nisi deserunt accusantium harum fugit sapiente vel, amet ipsum veniam, animi quisquam tempora officiis itaque esse, necessitatibus sequi. Commodi."
         },
         {
             id: 4,
             avatar: Pic,
-            name: 'Mike',
+            name: 'Mike Potaski',
             review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus pariatur nemo nisi deserunt accusantium harum fugit sapiente vel, amet ipsum veniam, animi quisquam tempora officiis itaque esse, necessitatibus sequi. Commodi."
         },
         {
             id: 5,
             avatar: Pic,
-            name: 'Sam',
+            name: 'Sam Simons',
             review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus pariatur nemo nisi deserunt accusantium harum fugit sapiente vel, amet ipsum veniam, animi quisquam tempora officiis itaque esse, necessitatibus sequi. Commodi."
         }
     ]
