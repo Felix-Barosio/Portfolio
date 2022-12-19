@@ -1,6 +1,7 @@
 import React from 'react'
+import './Testimonials.css'
 import Pic from '../../assets/images/profile3.png'
-import { Swiper } from 'swiper/react';
+import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -41,6 +42,20 @@ const Testimonial = () => {
         }
     ]
 
+    const renderReviews = reviews.map(review => {
+        return (
+            <SwiperSlide className='testimonial' key={review.id}>
+                <div className='client_avatar'>
+                    <img src={review.avatar} alt={review.name} />
+                </div>
+                <h5 className='client_name'>{review.name}</h5>
+                <small className='client_review'>
+                    {review.review}
+                </small>
+            </SwiperSlide>
+        )
+    })
+
     return (
         <section id='testimonials'>
             <h5>Client Reviews</h5>
@@ -54,6 +69,7 @@ const Testimonial = () => {
                     pagination={{ clickable: true }}
                     scrollbar={{ draggable: true }}
                 >
+                    {renderReviews}
                 </Swiper>
             </div>
         </section>
