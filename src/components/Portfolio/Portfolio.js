@@ -63,14 +63,14 @@ const Portfolio = () => {
                     >
                         GitHub
                     </a>
-                    <a
+                    {/* <a
                         href={project.live_demo}
                         className="btn btn-primary"
                         target={"_blank"}
                         rel="noreferrer"
                     >
                         Live Demo
-                    </a>
+                    </a> */}
                 </div>
             </article>
         );
