@@ -54,7 +54,7 @@ const Portfolio = () => {
                     <img src={project.image_url} alt={project.title} />
                 </div>
                 <h3>{project.title}</h3>
-                <div className="portfolio_item_cta">
+                <div className="portfolio_item_card">
                     <a
                         href={project.github_url}
                         className="btn"
@@ -63,14 +63,14 @@ const Portfolio = () => {
                     >
                         GitHub
                     </a>
-                    {/* <a
+                    <a
                         href={project.live_demo}
                         className="btn btn-primary"
                         target={"_blank"}
                         rel="noreferrer"
                     >
-                        Live Demo
-                    </a> */}
+                        Demo
+                    </a>
                 </div>
             </article>
         );
