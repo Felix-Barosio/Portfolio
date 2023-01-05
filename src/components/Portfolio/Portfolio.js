@@ -15,7 +15,7 @@ const Portfolio = () => {
             title: "Dairy Business",
             image_url: Dairy,
             github_url: "https://github.com/Felix-Barosio/Dairy_business",
-            live_demo: "",
+            live_demo: "https://felix-barosio.github.io/Dairy_business/",
         },
         {
             id: 2,
