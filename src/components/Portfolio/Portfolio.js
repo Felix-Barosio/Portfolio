@@ -22,7 +22,7 @@ const Portfolio = () => {
             title: "Box Office Buffs",
             image_url: Box,
             github_url: "https://github.com/Felix-Barosio/Box-Office-Buffs",
-            live_demo: "",
+            live_demo: "https://felix-barosio.github.io/Box-Office-Buffs/",
         },
         {
             id: 3,
