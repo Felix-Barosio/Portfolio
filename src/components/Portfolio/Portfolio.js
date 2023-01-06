@@ -29,7 +29,7 @@ const Portfolio = () => {
             title: "Tasty Tips",
             image_url: Tasty,
             github_url: "https://github.com/Felix-Barosio/Tasty-Tips",
-            live_demo: "",
+            live_demo: "https://tasty-tips.vercel.app/",
         },
         {
             id: 4,
