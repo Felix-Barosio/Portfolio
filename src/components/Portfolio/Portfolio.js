@@ -36,14 +36,14 @@ const Portfolio = () => {
             title: "Recipe Blog",
             image_url: Recipe,
             github_url: "https://github.com/Felix-Barosio/Receipe-blog-client",
-            live_demo: "",
+            live_demo: "https://github.com/Felix-Barosio/Receipe-blog-client",
         },
         {
             id: 5,
             title: "To-Do App",
             image_url: Todo,
             github_url: "https://github.com/Felix-Barosio/Omnido",
-            live_demo: "",
+            live_demo: "https://github.com/Felix-Barosio/Omnido",
         },
     ];
 
