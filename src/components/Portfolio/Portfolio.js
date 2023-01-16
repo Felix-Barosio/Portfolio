@@ -40,7 +40,7 @@ const Portfolio = () => {
         },
         {
             id: 5,
-            title: "To-Do App",
+            title: "Omnido App",
             image_url: Todo,
             github_url: "https://github.com/Felix-Barosio/Omnido",
             live_demo: "https://github.com/Felix-Barosio/Omnido",
