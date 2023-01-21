@@ -36,7 +36,7 @@ const Portfolio = () => {
             title: "Foodie Blog",
             image_url: Recipe,
             github_url: "https://github.com/Felix-Barosio/Receipe-blog-client",
-            live_demo: "https://github.com/Felix-Barosio/Receipe-blog-client",
+            live_demo: "https://foodie-blog.onrender.com/",
         },
         {
             id: 5,
