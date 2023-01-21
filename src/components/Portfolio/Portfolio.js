@@ -43,7 +43,7 @@ const Portfolio = () => {
             title: "Omnido App",
             image_url: Todo,
             github_url: "https://github.com/Felix-Barosio/Omnido",
-            live_demo: "https://github.com/Felix-Barosio/Omnido",
+            live_demo: "https://omnido.onrender.com",
         },
     ];
 
