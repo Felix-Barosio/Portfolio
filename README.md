@@ -1,4 +1,4 @@
-# Portfolio Website
+# Portfolio Page
 
 Personal porfolio page to show projects done.
 
@@ -15,7 +15,7 @@ Personal porfolio page to show projects done.
 Folk or Clone the repository
 
 ```
-https://github.com/Felix-Barosio/Portfolio
+git clone git@github.com:Felix-Barosio/Portfolio.git
 ```
 
 Install Dependecies
@@ -23,8 +23,6 @@ Install Dependecies
 ```
 npm install
 ```
-
-Run
 
 ```
 npm start
