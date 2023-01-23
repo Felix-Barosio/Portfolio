@@ -1,12 +1,10 @@
 # Portfolio Page
 
-Personal porfolio page to show projects done.
+Personal porfolio page to showcase projects done.
 
 ## Deployment
 
-[Live Link]()
-
-<!-- [Live Link](https://portfolio-felix-barosio.vercel.app) -->
+[Live Link](https://portfolio-felix-barosio.vercel.app)
 
 ## Installation & Set up
 
