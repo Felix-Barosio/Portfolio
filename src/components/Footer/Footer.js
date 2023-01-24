@@ -27,7 +27,7 @@ const Footer = () => {
             </div>
 
             <div className="footer_copyrights">
-                <small>&copy; 2023. Barosio Felix. All rights reserved</small>
+                <small>&copy; {new Date().getFullYear()}. Barosio Felix. All rights reserved</small>
             </div>
         </footer>
     )
